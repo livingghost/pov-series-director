@@ -1,0 +1,99 @@
+[package]
+name = "pov-series-director"
+version = "2026.08.04.2"
+
+[knowledge]
+specialist_sources = [
+  "references/state-and-trust.md",
+  "references/runtime-capabilities.md",
+  "references/production-rules.md",
+  "references/lexicon.md",
+  "references/style-rules.md",
+  "references/dialogue-rules.md",
+  "references/structure-music.md",
+  "references/hook-retention.md",
+  "references/multi-character.md",
+  "references/contact-scenes.md",
+  "references/atmosphere-quality.md",
+  "references/pov-camera.md",
+  "references/performance-details.md",
+  "references/post-production.md",
+  "references/templates.md",
+]
+operational_sources = [
+  "references/operational-distinctions.md",
+  "references/prompt-composition.md",
+  "references/model-facing-artifacts.md",
+  "references/target-adaptation.md",
+]
+
+[flat.runtime]
+output = "adapters/pov-series-director-runtime-flat.md"
+sources = [
+  "SKILL.md",
+  "references/state-and-trust.md",
+  "references/runtime-capabilities.md",
+  "references/operational-distinctions.md",
+  "references/production-rules.md",
+  "references/lexicon.md",
+  "references/style-rules.md",
+  "references/dialogue-rules.md",
+  "references/structure-music.md",
+  "references/hook-retention.md",
+  "references/multi-character.md",
+  "references/contact-scenes.md",
+  "references/atmosphere-quality.md",
+  "references/pov-camera.md",
+  "references/performance-details.md",
+  "references/prompt-composition.md",
+  "references/model-facing-artifacts.md",
+  "references/target-adaptation.md",
+  "references/post-production.md",
+  "references/templates.md",
+]
+
+[flat.full]
+output = "adapters/pov-series-director-full-flat.md"
+sources = [
+  "SKILL.md",
+  "references/state-and-trust.md",
+  "references/runtime-capabilities.md",
+  "references/operational-distinctions.md",
+  "references/production-rules.md",
+  "references/lexicon.md",
+  "references/style-rules.md",
+  "references/dialogue-rules.md",
+  "references/structure-music.md",
+  "references/hook-retention.md",
+  "references/multi-character.md",
+  "references/contact-scenes.md",
+  "references/atmosphere-quality.md",
+  "references/pov-camera.md",
+  "references/performance-details.md",
+  "references/prompt-composition.md",
+  "references/model-facing-artifacts.md",
+  "references/target-adaptation.md",
+  "references/post-production.md",
+  "references/templates.md",
+  "examples/demo-episode.md",
+]
+
+[release]
+output = "dist/pov-series-director-2026.08.04.2.zip"
+include = [
+  ".gitattributes",
+  ".gitignore",
+  ".github",
+  "README.md",
+  "SKILL.md",
+  "CHANGELOG.md",
+  "CONTRIBUTING.md",
+  "LICENSE",
+  "package-manifest.toml",
+  "assets",
+  "references",
+  "examples",
+  "scripts",
+  "adapters",
+]
+exclude_names = ["__pycache__", ".DS_Store"]

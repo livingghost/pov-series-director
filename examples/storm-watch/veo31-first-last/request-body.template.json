@@ -1,0 +1,23 @@
+{
+  "instances": [
+    {
+      "prompt": "${CONTENTS_OF_SUBMITTED_TEXT}",
+      "image": {
+        "gcsUri": "${GCS_URI_FOR_START_FRAME}",
+        "mimeType": "image/png"
+      },
+      "lastFrame": {
+        "gcsUri": "${GCS_URI_FOR_END_FRAME}",
+        "mimeType": "image/png"
+      }
+    }
+  ],
+  "parameters": {
+    "aspectRatio": "16:9",
+    "durationSeconds": 8,
+    "sampleCount": 4,
+    "resolution": "720p",
+    "negativePrompt": "${CONTENTS_OF_NEGATIVE_PROMPT}",
+    "storageUri": "${OUTPUT_STORAGE_URI}"
+  }
+}

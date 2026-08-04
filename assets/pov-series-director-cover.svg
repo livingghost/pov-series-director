@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">POV Series Director cover</title>
+  <desc id="desc">A cinematic interface showing inspected evidence, exact submissions mapped to real controls, capability-aware clip planning, and continuity across recurring POV episodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#0c1830"/>
+      <stop offset="1" stop-color="#17112d"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(1270 120) rotate(135) scale(580 430)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45d5ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#45d5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1060 660) rotate(-55) scale(500 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9f69ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#9f69ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#4ee4ff"/>
+      <stop offset="0.52" stop-color="#8b7cff"/>
+      <stop offset="1" stop-color="#ff79bd"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#172640" stop-opacity="0.97"/>
+      <stop offset="1" stop-color="#111a2e" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8fa8cc" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="720" fill="url(#bg)"/>
+  <rect width="1600" height="720" fill="url(#glowA)"/>
+  <rect width="1600" height="720" fill="url(#glowB)"/>
+  <rect width="1600" height="720" fill="url(#grid)"/>
+  <g opacity="0.2">
+    <circle cx="1430" cy="96" r="84" fill="#46d8ff" filter="url(#softGlow)"/>
+    <circle cx="1060" cy="660" r="96" fill="#8d6cff" filter="url(#softGlow)"/>
+  </g>
+
+  <g transform="translate(108 108)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect x="0" y="0" width="154" height="32" rx="16" fill="#11253b" stroke="#4ee4ff" stroke-opacity="0.58"/>
+    <circle cx="18" cy="16" r="5" fill="#4ee4ff"/>
+    <text x="32" y="21" fill="#ccefff" font-size="13" font-weight="700" letter-spacing="1.35">AGENT SKILL</text>
+
+    <text x="0" y="112" fill="#f4f8ff" font-size="72" font-weight="800" letter-spacing="-2">POV Series</text>
+    <text x="0" y="188" fill="url(#accent)" font-size="72" font-weight="800" letter-spacing="-2">Director</text>
+    <text x="2" y="246" fill="#b9c8dd" font-size="22" font-weight="500">Inspect frames. Submit exactly. Preserve continuity.</text>
+
+    <g transform="translate(2 302)">
+      <rect x="0" y="0" width="420" height="2" rx="1" fill="url(#accent)" opacity="0.85"/>
+      <text x="0" y="42" fill="#dce7f7" font-size="19" font-weight="700">Model-agnostic direction for recurring first-person stories</text>
+      <text x="0" y="80" fill="#94a8c3" font-size="17">Inspect the real frame before a motion prompt becomes final.</text>
+      <text x="0" y="112" fill="#94a8c3" font-size="17">Carry every requirement into a real file, field, or post route.</text>
+    </g>
+
+    <g transform="translate(2 492)">
+      <g>
+        <rect width="116" height="38" rx="19" fill="#12243a" stroke="#4ee4ff" stroke-opacity="0.36"/>
+        <text x="58" y="25" text-anchor="middle" fill="#c9eff8" font-size="14" font-weight="700">IMAGE LOCK</text>
+      </g>
+      <g transform="translate(130 0)">
+        <rect width="162" height="38" rx="19" fill="#1a203e" stroke="#8b7cff" stroke-opacity="0.46"/>
+        <text x="81" y="25" text-anchor="middle" fill="#ddd7ff" font-size="14" font-weight="700">EXACT SUBMISSION</text>
+      </g>
+      <g transform="translate(306 0)">
+        <rect width="130" height="38" rx="19" fill="#2b1b38" stroke="#ff79bd" stroke-opacity="0.44"/>
+        <text x="65" y="25" text-anchor="middle" fill="#ffd9ed" font-size="14" font-weight="700">CONTINUITY</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(752 78)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <g transform="rotate(-1.5 370 280)">
+      <rect x="0" y="0" width="748" height="560" rx="34" fill="#0e1729" stroke="#7cb7ff" stroke-opacity="0.24"/>
+      <rect x="1" y="1" width="746" height="558" rx="33" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+
+      <g transform="translate(34 28)">
+        <circle cx="8" cy="8" r="5" fill="#ff79bd"/>
+        <circle cx="28" cy="8" r="5" fill="#ffd166"/>
+        <circle cx="48" cy="8" r="5" fill="#4ee4ff"/>
+        <text x="78" y="14" fill="#7f93ae" font-size="13" font-weight="700" letter-spacing="1.2">EPISODE PACKAGE</text>
+      </g>
+
+      <g transform="translate(34 68)">
+        <rect width="328" height="232" rx="22" fill="url(#card)" stroke="#4ee4ff" stroke-opacity="0.3"/>
+        <text x="24" y="32" fill="#90eaff" font-size="13" font-weight="800" letter-spacing="1.45">INSPECTED EVIDENCE</text>
+        <rect x="24" y="50" width="280" height="108" rx="14" fill="#0a1324" stroke="#7ca6c8" stroke-opacity="0.22"/>
+        <path d="M40 149 C83 105 118 126 158 90 C198 55 229 87 286 64 L286 158 L40 158 Z" fill="#183754"/>
+        <path d="M40 148 C84 125 130 149 177 114 C216 84 245 107 286 85" fill="none" stroke="#4ee4ff" stroke-width="3" stroke-opacity="0.82"/>
+        <rect x="44" y="67" width="92" height="18" rx="9" fill="#4ee4ff" fill-opacity="0.16"/>
+        <rect x="44" y="95" width="150" height="10" rx="5" fill="#8ca5c7" fill-opacity="0.25"/>
+        <rect x="44" y="113" width="120" height="10" rx="5" fill="#8ca5c7" fill-opacity="0.18"/>
+        <circle cx="278" cy="61" r="8" fill="#4ee4ff"/>
+        <text x="24" y="188" fill="#b8c8da" font-size="12.5">A real frame becomes the spatial source</text>
+        <text x="24" y="207" fill="#b8c8da" font-size="12.5">of truth for every decision in the shot.</text>
+      </g>
+
+      <g transform="translate(386 68)">
+        <rect width="328" height="232" rx="22" fill="url(#card)" stroke="#8b7cff" stroke-opacity="0.3"/>
+        <text x="24" y="32" fill="#c8bdff" font-size="13" font-weight="800" letter-spacing="1.45">EXACT SUBMISSION</text>
+        <g transform="translate(24 50)" font-size="12" font-weight="700">
+          <g><rect width="88" height="30" rx="10" fill="#12354a" stroke="#4ee4ff" stroke-opacity="0.28"/><text x="44" y="20" text-anchor="middle" fill="#9be9ff">start image</text></g>
+          <g transform="translate(95 0)"><rect width="76" height="30" rx="10" fill="#12354a" stroke="#4ee4ff" stroke-opacity="0.28"/><text x="38" y="20" text-anchor="middle" fill="#9be9ff">end image</text></g>
+          <g transform="translate(178 0)"><rect width="88" height="30" rx="10" fill="#12354a" stroke="#4ee4ff" stroke-opacity="0.28"/><text x="44" y="20" text-anchor="middle" fill="#9be9ff">subject ref</text></g>
+        </g>
+        <g transform="translate(24 94)" font-size="12" font-weight="700">
+          <g><rect width="58" height="30" rx="10" fill="#232449" stroke="#8b7cff" stroke-opacity="0.3"/><text x="29" y="20" text-anchor="middle" fill="#c8bdff">prompt</text></g>
+          <g transform="translate(65 0)"><rect width="70" height="30" rx="10" fill="#232449" stroke="#8b7cff" stroke-opacity="0.3"/><text x="35" y="20" text-anchor="middle" fill="#c8bdff">negative</text></g>
+          <g transform="translate(142 0)"><rect width="70" height="30" rx="10" fill="#232449" stroke="#8b7cff" stroke-opacity="0.3"/><text x="35" y="20" text-anchor="middle" fill="#c8bdff">duration</text></g>
+        </g>
+        <g transform="translate(24 138)" font-size="12" font-weight="700">
+          <g><rect width="48" height="30" rx="10" fill="#33223c" stroke="#ff79bd" stroke-opacity="0.28"/><text x="24" y="20" text-anchor="middle" fill="#ffc0df">edit</text></g>
+          <g transform="translate(55 0)"><rect width="58" height="30" rx="10" fill="#33223c" stroke="#ff79bd" stroke-opacity="0.28"/><text x="29" y="20" text-anchor="middle" fill="#ffc0df">extend</text></g>
+          <g transform="translate(120 0)"><rect width="82" height="30" rx="10" fill="#33223c" stroke="#ff79bd" stroke-opacity="0.28"/><text x="41" y="20" text-anchor="middle" fill="#ffc0df">transition</text></g>
+        </g>
+        <g transform="translate(24 196)" fill="#c4d0e0" font-size="12.5">
+          <text x="0" y="0">Real controls, not role labels.</text>
+          <text x="0" y="19">Reproducible by an operator.</text>
+        </g>
+      </g>
+
+      <g transform="translate(34 320)">
+        <rect width="680" height="204" rx="22" fill="url(#card)" stroke="#ff79bd" stroke-opacity="0.24"/>
+        <text x="24" y="32" fill="#ffc0df" font-size="13" font-weight="800" letter-spacing="1.45">CAPABILITY-AWARE CLIP PLANNING</text>
+        <text x="24" y="54" fill="#91a4bd" font-size="12.5">Story functions stay intact while the package adapts to documented target limits.</text>
+
+        <g transform="translate(24 74)">
+          <g>
+            <rect width="148" height="70" rx="14" fill="#153b51" stroke="#4ee4ff" stroke-opacity="0.36"/>
+            <text x="16" y="25" fill="#b7f3ff" font-size="13" font-weight="800">CLIP 01</text>
+            <text x="16" y="47" fill="#79a7bc" font-size="11">Build toward</text>
+            <text x="16" y="62" fill="#79a7bc" font-size="11">the turn.</text>
+          </g>
+          <g transform="translate(160 0)">
+            <rect width="148" height="70" rx="14" fill="#25264b" stroke="#8b7cff" stroke-opacity="0.42"/>
+            <text x="16" y="25" fill="#ded7ff" font-size="13" font-weight="800">CLIP 02</text>
+            <text x="16" y="47" fill="#9f98bd" font-size="11">Land the</text>
+            <text x="16" y="62" fill="#9f98bd" font-size="11">payoff.</text>
+          </g>
+          <g transform="translate(320 0)">
+            <rect width="148" height="70" rx="14" fill="#33243f" stroke="#ff79bd" stroke-opacity="0.4"/>
+            <text x="16" y="25" fill="#ffd2e7" font-size="13" font-weight="800">SEAM</text>
+            <text x="16" y="47" fill="#bd91aa" font-size="11">Extract the end</text>
+            <text x="16" y="62" fill="#bd91aa" font-size="11">frame and inspect it.</text>
+          </g>
+          <g transform="translate(480 0)">
+            <rect width="148" height="70" rx="14" fill="#173548" stroke="#4ee4ff" stroke-opacity="0.32"/>
+            <text x="16" y="25" fill="#b7f3ff" font-size="13" font-weight="800">NEXT SHOT</text>
+            <text x="16" y="47" fill="#7da9bc" font-size="11">Continue from</text>
+            <text x="16" y="62" fill="#7da9bc" font-size="11">inspected evidence.</text>
+          </g>
+        </g>
+        <text x="24" y="176" fill="#a9b9cd" font-size="12.5">Each clip hands the next one a stable frame instead of an imagined join.</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(108 664)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="0" y="0" fill="#637792" font-size="13">Plan a shot, edit a source, extend a scene, or bridge two clips without losing continuity.</text>
+  </g>
+</svg>

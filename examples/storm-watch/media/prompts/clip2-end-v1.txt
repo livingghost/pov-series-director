@@ -1,0 +1,19 @@
+Two images are attached: a bedroom scene with a standing character, and that character's reference sheet. Produce a new frame of the SAME room from the SAME camera, with the SAME character matching the sheet, in a new pose. Photographic grounded clean realism, landscape 16:9.
+
+Keep from the scene image: the camera position and height, the dresser and lit warm lamp at frame left, the rainy four-pane window rear-right, the wooden floor strip, the bed and blanket filling the lower-right foreground, the night lighting with the warm lamp dominant.
+
+New state:
+
+1. The character now SITS on the left edge of the mattress, weight clearly on the bed: the mattress dips locally under him and one fold of bedding pulls toward the contact point. He is not floating in front of the edge and not standing.
+
+2. He sits upright, still facing the rainy rear-right window; the camera sees his back and right side. Both ears point toward the window. Both of his hands rest on his own thighs.
+
+3. His feet are on the floor below the mattress edge, digitigrade profile readable, heels raised.
+
+4. The folded dark teal sleepwear no longer touches his hands: it lies as a neat flat folded bundle on the bedding near the lower edge of the frame, close to the camera, beside where the viewer's pillow would be.
+
+5. His full plumed tail sweeps to his side and rests ACROSS the blanket over the viewer's covered legs in the lower-right foreground; the blanket fabric is pressed slightly where the tail lies.
+
+6. The viewer's hand may rest at the near bedding edge. Nothing else of the viewer is visible.
+
+No lightning, no text, no watermark. Same charcoal robe with loose sleeves, black trousers, white fur, cream throat.

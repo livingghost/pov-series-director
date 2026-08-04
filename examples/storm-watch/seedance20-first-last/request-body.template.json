@@ -1,0 +1,21 @@
+{
+  "model": "bytedance/seedance-2.0",
+  "prompt": "<insert the verbatim contents of submitted-text.txt>",
+  "frame_images": [
+    {
+      "type": "image_url",
+      "image_url": { "url": "data:image/jpeg;base64,<base64 of ../media/clip1-start.jpg>" },
+      "frame_type": "first_frame"
+    },
+    {
+      "type": "image_url",
+      "image_url": { "url": "data:image/jpeg;base64,<base64 of ../media/clip1-end.jpg>" },
+      "frame_type": "last_frame"
+    }
+  ],
+  "aspect_ratio": "16:9",
+  "duration": 8,
+  "resolution": "720p",
+  "seed": 21,
+  "generate_audio": true
+}
